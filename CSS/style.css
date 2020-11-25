@@ -8,7 +8,7 @@
 
 :root {
   --primary-text-color: #757575;
-  --tile-text-color: #212121;
+  --title-text-color: #212121;
   --acent-color: #2196f3;
   --white-color: #ffffff;
 }
@@ -58,7 +58,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--tile-text-color);
+  color: var(--title-text-color);
 }
 
 .address-list-link {
@@ -139,7 +139,7 @@ body {
   font-size: 36px;
   line-height: 1.167x;
   letter-spacing: 0.03em;
-  color: var(--tile-text-color);
+  color: var(--title-text-color);
 }
 
 /*================= END WORK =================  */
@@ -200,10 +200,49 @@ body {
 .footer-adr-list-item-link {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
 }
 /*================= END FOOTER =================  */
+
+/*================= END MAIN PAGE =================  */
+
+/*================= PORTFOLI PAGE =================  */
+
+.filters-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.filters-button:focus,
+.filters-button:hover {
+  color: var(--white-color);
+  background-color: var(--acent-color);
+}
+
+.project-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.project-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/*================= END PORTFOLI PAGE =================  */
